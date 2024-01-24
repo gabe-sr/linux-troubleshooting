@@ -57,4 +57,4 @@ wl_input_rules = {
 > You could technically use the wayland backend core `set_keymap` command trhough the [qtile shell](https://docs.qtile.org/en/stable/manual/commands/shell/qtile-shell.html#qtile-shell) to achieve the same results ([back end core objects docs](https://docs.qtile.org/en/latest/manual/commands/api/backend.html#wayland-backend))
 
 > [!WARNING]
-> For my brazilian fellows, `kb_layout:"br"` should be fine, there was this one time where I entered the variant `kb_variant:"abnt2"`, and the system assumed the default `us` layout. Not sure it is a problem, but if setting the keyboard to `br-abnt2` no not work _**on Qtile**_ (not for vconsole config) try using just the `br` indicator
+> For my brazilian fellows, `kb_layout:"br"` should be fine, there was this one time where I entered the variant `kb_variant:"abnt2"`, and the system assumed the default `us` layout. Not sure it is a problem, but if setting the keyboard to `br-abnt2` does not work _**on Qtile**_ (not for vconsole config) try using just the `br` indicator
